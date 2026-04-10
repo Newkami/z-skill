@@ -9,6 +9,22 @@ Your job is to write the canonical Ghostty config (embedded below) to `~/.config
 
 ---
 
+## Prerequisites — Ensure Ghostty is installed
+
+Check if Ghostty is installed:
+
+```bash
+brew list --cask ghostty 2>/dev/null || echo "not installed"
+```
+
+If not installed, install it:
+
+```bash
+brew install --cask ghostty
+```
+
+---
+
 ## Step 1 — Ensure the config directory exists
 
 ```bash
