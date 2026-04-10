@@ -1,0 +1,23 @@
+{
+  "skill_name": "vim-configuration",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "帮我配置 vim，我是 C++ 开发者，平时用 Ghostty 终端",
+      "expected_output": "A complete .vimrc snippet with syntax on, AutoFormat function for C++, <leader>f mapping, Option+arrow insert mode mappings, plus install instructions for clang-format",
+      "files": []
+    },
+    {
+      "id": 1,
+      "prompt": "我想在 vim 里给 Python 代码加自动格式化，并且能用 Option+左右键在插入模式下按单词移动光标",
+      "expected_output": "A .vimrc snippet including AutoFormat function for Python (black), <leader>f mapping, and insert-mode Option+arrow word movement mappings",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "我已经有一个 .vimrc 了，现在想加一个 clang-format 的支持，用 \\f 触发",
+      "expected_output": "A focused snippet showing just the AutoFormat function and <leader>f mapping for clang-format, with a clear note about where to add it in an existing .vimrc",
+      "files": []
+    }
+  ]
+}
